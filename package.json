@@ -1,0 +1,30 @@
+{
+  "name": "streaksforynabwebsite",
+  "version": "1.0.0",
+  "description": "Official website for Streaks (For YNAB) - Build better spending habits with YNAB integration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ynabaddons/StreaksForYnab.git"
+  },
+  "keywords": [
+    "ynab",
+    "budgeting",
+    "habits",
+    "streaks",
+    "jekyll",
+    "website"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write --ignore-unknown ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}

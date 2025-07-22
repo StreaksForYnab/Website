@@ -1,0 +1,44 @@
+title: Streaks (For YNAB)
+description: Build better spending habits with YNAB integration
+baseurl: ""
+url: "https://streaksforynab.app"
+email: support@streaksforynab.app
+markdown: kramdown
+highlighter: rouge
+ynab_url: "https://www.ynab.com/referral?ref=5uhATdvN0mdkvJzq&sponsor_name=Daniel+Haven&utm_source=customer_referral&utm_campaign=streaksforynab"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Build settings
+theme: minima
+minima:
+  social_links:
+    github: YNABAddOns
+
+# Collections
+collections:
+  privacy_versions:
+    output: true
+    permalink: /privacy/versions/:name
+  views:
+    output: true
+    permalink: /:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "views"
+      type: "views"
+    values:
+      layout: "default"

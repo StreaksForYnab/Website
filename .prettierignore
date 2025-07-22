@@ -1,0 +1,54 @@
+# Jekyll build output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Dependencies
+node_modules/
+vendor/
+.bundle/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Generated files
+Gemfile.lock
+package-lock.json
+
+# Assets (images, etc.)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.eot
+
+# Binary files
+*.pdf
+*.zip
+*.tar.gz
+
+# Jekyll template files (contain Liquid syntax)
+_layouts/
+_includes/
+*.html 

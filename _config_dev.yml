@@ -1,0 +1,5 @@
+# Development configuration for local testing
+# Use: bundle exec jekyll serve --config _config.yml,_config_dev.yml
+
+baseurl: ""
+url: "http://localhost:4000" 

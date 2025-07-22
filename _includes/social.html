@@ -1,0 +1,24 @@
+<div class="social-links">
+  {%- for platform in site.minima.social_links -%} {%- assign social_platform =
+  platform[0] -%} {%- assign social_username = platform[1] -%} {%- assign
+  social_url = "" -%} {%- if social_platform == "github" -%} {%- assign
+  social_url = "https://github.com/" | append: social_username -%} {%- elsif
+  social_platform == "twitter" -%} {%- assign social_url =
+  "https://twitter.com/" | append: social_username -%} {%- elsif social_platform
+  == "email" -%} {%- assign social_url = "mailto:" | append: social_username -%}
+  {%- endif -%} {%- if social_url != "" -%}
+  <a
+    href="{{ social_url }}"
+    title="{{ social_platform | capitalize }}"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <svg class="svg-icon">
+      <use
+        xlink:href="{{ 'assets/minima-social-icons.svg#' | append: social_platform | relative_url }}"
+      ></use>
+    </svg>
+    <span class="username">{{ social_username }}</span>
+  </a>
+  {%- endif -%} {%- endfor -%}
+</div>

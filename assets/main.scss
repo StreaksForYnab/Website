@@ -1,0 +1,80 @@
+---
+---
+
+@import 'minima';
+
+// Footer disclaimer styling
+.footer-disclaimer {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ecef;
+  text-align: center;
+
+  p {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #666;
+  }
+}
+
+// Privacy version styling
+.version-info {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+
+  p {
+    margin: 0.5rem 0;
+  }
+
+  a {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.version-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+
+  &.latest {
+    border-color: #28a745;
+    background-color: #f8fff9;
+  }
+
+  h3 {
+    margin: 0 0 0.5rem 0;
+
+    a {
+      color: #333;
+      text-decoration: none;
+
+      &:hover {
+        color: #007bff;
+      }
+    }
+  }
+
+  .latest-badge {
+    background-color: #28a745;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+  }
+
+  .version-changes {
+    margin: 0.5rem 0 0 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+}
