@@ -133,7 +133,7 @@ The site includes:
 
 For website issues:
 
-- **GitHub Issues**: [Report problems](https://github.com/ynabaddons/StreaksForYnabWebsite/issues)
+- **GitHub Issues**: [Report problems](https://github.com/StreaksForYnab/Website/issues)
 - **Email**: [support@streaksforynab.app](mailto:support@streaksforynab.app)
 
 ## 📄 License

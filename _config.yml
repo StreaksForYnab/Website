@@ -14,7 +14,7 @@ plugins:
 theme: minima
 minima:
   social_links:
-    github: YNABAddOns
+    github: StreaksForYnab
 
 # Collections
 collections:
